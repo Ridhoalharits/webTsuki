@@ -1,0 +1,51 @@
+@font-face {
+	font-family: "VisbyCF-Regular";
+	src: url("/public/fonts/Visby CF/VisbyCF-Regular.otf") format("truetype");
+}
+.content-wrap {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.content {
+	font-family: "VisbyCF-Regular";
+	background: linear-gradient(92.15deg, #009bd8 0.74%, #01dbad 112.37%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 0;
+	margin-top: 5px;
+}
+
+.gradient-box {
+	display: inline-block;
+	text-align: center;
+	height: 30px;
+	position: relative;
+	color: #fff;
+	background: #000;
+	background-clip: padding-box;
+	/* !importanté */
+	border: solid 2px transparent;
+	/* !importanté */
+	border-radius: 30px;
+	padding: 0px 12px;
+	padding-bottom: 0px;
+	margin: 6px;
+}
+.gradient-box:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	margin: -2px;
+	/* !importanté */
+	border-radius: inherit;
+	/* !importanté */
+	background: linear-gradient(92.15deg, #009bd8 0.74%, #01dbad 112.37%);
+}

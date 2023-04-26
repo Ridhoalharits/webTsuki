@@ -1,0 +1,156 @@
+@font-face {
+	font-family: "Syne";
+	src: url("/public/fonts/Syne/Syne-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "VisbyCF-Bold";
+	src: url("/public/fonts/Visby CF/VisbyCF-Bold.otf") format("truetype");
+}
+
+@font-face {
+	font-family: "VisbyCF-Regular";
+	src: url("/public/fonts/Visby CF/VisbyCF-Regular.otf") format("truetype");
+}
+
+body {
+	background-color: #01010d;
+}
+.Base {
+}
+.Project {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.Heading {
+	color: white;
+	font-family: "VisbyCF-Bold";
+	text-align: center;
+	background: linear-gradient(45deg, #009bd8, #01dbad);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 12px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 37px;
+}
+
+.OurProduct {
+	font-weight: 700;
+	font-size: 60px;
+	font-family: "Syne";
+	background: linear-gradient(45deg, #009bd8, #01dbad);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 18px;
+}
+
+.photoBox1 {
+	text-align: center;
+	margin-right: 36px;
+}
+
+.photoBox1 img {
+	object-fit: cover;
+	margin: 0;
+	border-radius: 30px;
+}
+
+.photoBox2 {
+	border-radius: 30px;
+	margin-bottom: 24px;
+	margin-top: 0px;
+}
+
+.photoBox2 img {
+	object-fit: cover;
+	border-radius: 30px;
+	clip-path: margin-box;
+}
+.photoBox3 {
+	border-radius: 30px;
+	margin-bottom: 0px;
+}
+
+.photoBox3 img {
+	object-fit: cover;
+	border-radius: 30px;
+	clip-path: margin-box;
+}
+
+.OurProductDesc {
+	font-style: normal;
+	font-size: 18px;
+	line-height: 28px;
+	font-family: "VisbyCF-Regular";
+	text-align: center;
+	color: #ffffff;
+	width: 1037px;
+	height: 41px;
+	font-weight: 400;
+}
+
+.listProjectRow {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	margin-top: 32px;
+}
+
+.listProjectCol {
+	flex-direction: column;
+}
+
+.circleBlur {
+	width: 807px;
+	height: 807px;
+	background: linear-gradient(180deg, #044336 0%, #031245 100%);
+	filter: blur(250px);
+}
+
+.two-color-text2 {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 72px;
+	font-family: "Syne";
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.two-color-text2 span {
+	background: linear-gradient(92.15deg, #009bd8 0.74%, #01dbad 112.37%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	margin-left: -100px;
+}
+
+.two-color-text2:before {
+	content: "Our";
+	color: #ffffff;
+}
+.two-color-text2::after {
+	content: "That We Made";
+	color: #ffffff;
+	margin-left: -480px;
+}
+
+.gradient {
+	background: linear-gradient(92.15deg, #009bd8 0.74%, #01dbad 112.37%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.text-white {
+	font-family: "Syne";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 72px;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
